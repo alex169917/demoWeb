@@ -1,0 +1,20 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Viajes - Consulta</title>
+</head>
+<body>
+    <h1>Consulta</h1>
+    <p>Por favor, completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible:</p>
+    <form action="enviar_consulta.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required><br>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" name="email" required><br>
+        <label for="consulta">Consulta:</label><br>
+        <textarea name="consulta" rows="4" cols="50" required></textarea><br>
+        <button type="submit">Enviar Consulta</button>
+    </form>
+</body>
+</html>
